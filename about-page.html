@@ -452,6 +452,25 @@ SMALL MOBILE
 }
 
 }
+/* Black Curtain Animation */
+
+.curtain{
+    position: fixed;
+    inset: 0;
+    background: #0f0f0fd3;
+    z-index: 99999;
+    animation: openCurtain 1s ease-in-out forwards;
+}
+
+@keyframes openCurtain{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+}
+/* Black Curtain Animation */
 
 </style>
 </html>
